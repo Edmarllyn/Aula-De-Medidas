@@ -133,7 +133,54 @@ QUANDO EVITAR:
 Para Elementos que não precisam ser sensíveis ao tamanho da viewport e devem ter tamanhos 
 fixos ou proporcionais ao conteúdo.
 
+---------------------------------------------------------
 
+EXEMPLO DE USO:
+
+HTML
+</section class= "fullscreen-section">
+    <p> Loren </p>
+</section>
+
+testa em tamanho de telas diferentes
+---------------------------------------------------------
+
+CSS: 
+.fullscreen-section {
+    height: 100vh; /* 100% da altura da viewport */
+    width: 50vw; 
+    background-color: black;
+}
+_________________________________________________________________________________________________________________
+
+5. vw (viewport width)
+
+Uso recomendado:
+
+para Definir tamanhos de largura relativos á largura da viewport, útil para criar layouts responsivos 
+ou elementos que devem ajustar a largurar da tela.
+Ideal para elementos que precisam ocupar uma porcentagem da largura da tela do usuário.
+
+QUANDO EVITAR:
+Para elementos cuja largura não deve depender da largura da viewport e ser fixa ou proporcional ao conteúdo.
+
+
+EXEMPLO DE USO:
+
+HTML
+<section class= "responsive-element">
+              <p> lorem </p>
+</section>    
+
+--------------------------------------------------------
+
+CSS:
+
+.responsive-element{
+    width: 50vw; /* 50% da largura da viewport */
+    height: 50vh;
+    background-color: Yellow;
+}
 
 
 
