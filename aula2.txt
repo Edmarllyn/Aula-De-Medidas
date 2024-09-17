@@ -110,6 +110,31 @@ HTML:
 
 CSS:
 
+HTML{
+    fonte-size: 16px; /* tamanho base da fonte */
+}
+
+.Text{
+    fonte-size: 2rem; /* 32px (2* 16px)*/
+}
+
+_________________________________________________________________________________________________________________
+
+4. vh (viewport height)
+
+Uso recomendado:
+
+Para definir tamanhos de altura relativos á altura da viewport, como para criar seções de tela cheia 
+ou  elementos que devem ocupar uma porcentagem da altura da tela.
+Ideal para layouts que devem se ajustar á altura da tela do usuários.
+
+QUANDO EVITAR:
+
+Para Elementos que não precisam ser sensíveis ao tamanho da viewport e devem ter tamanhos 
+fixos ou proporcionais ao conteúdo.
+
+
+
 
 
 
