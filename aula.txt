@@ -1,0 +1,129 @@
+Unidades de medidas(css)
+
+
+|-------------------------- PX -----------------------|   
+|                                                     |
+|  1. px (pixels)                                     | 
+|  Tamanho fixo.                                      |
+|  Usado quando você quer um valor exato, que não     |
+|  muda com o tamanho da tela.                        |
+|  XEMPLO: width 200px (largura de 200pixels).        |                      
+|                                                     |
+|                                                     |
+|                                                     |
+|                                                     |       
+|                                                     |
+|                                                     |
+|------------------- Fim Do PX -----------------------|
+
+
+
+
+
+|----------------------  EM --------------------------|   
+|                                                     |
+|     2. EM                                           |
+|  Relativo ao tamanho da fote do elemento pai.       |
+|  Se o pai tem font-size: 20px;, 1em será 20px.      |
+|  EXEMPLO: fonte-size: 2em (2 vez o tamanho da fonte |
+|  do pai).                                           |
+|                                                     |
+|  DIV - fonte-size = 20px                            | 
+|   H1 - fonte-size = 2em    / vai ser igual a 2* o   |
+|   valor da div (40px)/                              |
+|  /DIV                                               |
+|                                                     |             
+|                                                     |
+|                                                     |
+|-------------------------- EM -----------------------|
+
+
+
+
+
+|---------------------- REM --------------------------|   
+|                                                     |
+|   3. rem                                            |
+|   Relativo ao tamanho da fonte raiz (geralmente     |
+|   o html).                                          |
+|   Se o html tem font-size: 16px;, 1rem será 16px.   |
+|   EXEMPLO: padding: 1.5rem; (24px se o html         |
+|   tiver 16).                                        |
+|                                                     |
+|  REM:                                               |
+|  :root = html                                       |
+|                                                     |    
+|                                                     |         
+|                                                     |
+|                                                     |
+|---------------------- Fim Do REM -------------------|
+
+
+
+
+
+|------------------------- % -------------------------|  
+|                                                     |
+|                                                     |
+| 4. %(porcentagem)                                   |
+| Relativo ao tamanho do elemento pai.                |
+| Usado para fazer elementos se justarem ao tamanho do|
+| seu conteiner.                                      |
+| EXEMPLO: width:50px; (metade da largura do          |
+| conteiner).                                         |
+|                                                     |
+|                                                     |
+|                                                     |
+|-------------------- Fim da % -----------------------|
+
+
+
+
+
+|------------------------  VW ------------------------|   
+|                                                     |
+|                                                     |
+|  5. vw (viewport width)                             |
+|  Relativo á largura da janela do navegador.         |
+|  EXEMPLO: width:50vw; (50% da largura da tela       |
+|  visivel).                                          |    
+|                                                     |
+|                                                     |
+|----------------------- VW --------------------------|
+
+
+
+
+
+|-------------------------- VH -----------------------|   
+|                                                     |
+|                                                     |
+|                                                     |
+|  6. vh (viewport height)                            |
+|  Relativo á altura da janela do navegador.          |
+|  EXEMPLO: height: 100vh; (altura total da janela).  |
+|                                                     |             
+|                                                     |
+|                                                     |
+|------------------- Fim Do EM -----------------------|
+
+
+
+
+
+|---------------------- Geral ------------------------|
+|                                                     |
+|  PX: Tamanho Fixo.                                  |
+|                                                     |
+|  EM: Relativo ao tamanho da fonte do elemento pai.  |
+|                                                     |
+|  REM: Relativo ao tamanho da fonte do elemento raiz |
+|  (HTML).                                            |
+|                                                     |
+|  %: Relativo ao tamanho do elemento pai.            |
+|                                                     |
+|  VW e VH: relativo ao tamanho da janela do          |
+| navegador.                                          |
+|                                                     |
+|                                                     |
+|--------------------Fim Do Geral --------------------|
