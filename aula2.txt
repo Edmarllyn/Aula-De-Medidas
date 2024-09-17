@@ -1,0 +1,106 @@
+Guia de unidaded de medidads no css:quando usar cada uma
+
+1. PX (pixels)
+
+Uso recomendado:
+
+Para tamanhos fixos e precisos que não devem variar com o tamanho da tela ou texto.
+ideal para BORDAS, MARGENS uma aparência consistente.
+
+
+
+QUANDO EVITAR:
+
+Quando você deseja que o design seja mais flexível e adaptável a diferentes tamanhos de tela
+e configurações de acessibilidade.
+
+
+
+-------------------------------------------------
+EXEMPLO DE USO:
+
+html
+<div class= "box"
+
+</div>
+
+---------------------------------------------------
+css: 
+.BOX {
+    width: 300px;  /* largura fixa */
+    height: 200px; /* altura fixa*/
+    background-color: red;
+}
+_________________________________________________________________________________________________________________
+
+2.EM (Relativo to Parent font size)
+
+Uso recomendado:
+
+Quando você deseja que o tamanho  de um elemento seja relativo ao tamanho da fonte
+de seu elemento pai. Ideal para criar layouts e tipografia que se adaptam ao tamanho
+do texto do pai.
+
+
+
+QUANDO EVITAR:
+
+Se você precisa de consistência em relação ao tamanho da fonte em toda a aplicação, 
+independente da hierarquia de elemento.
+
+
+-------------------------------------------
+EXEMPLO DE USO:
+
+HTML
+
+<div class= "conteiner">
+
+      <div class= "child">
+
+      </div>
+
+</div>
+-------------------------------------------
+CSS:
+
+.conteiner {
+    fonte-size: 16px /* tamanho base - pai */
+
+}
+
+
+.child {
+    fonte-size: 1.5rem;  /* 1.5 vezes o tamanho da fonte do pai (24px) */
+}
+_________________________________________________________________________________________________________________
+
+
+3. REM (Relativo to root font size)
+
+Uso Recomendado:
+
+Para criar tamanhos de fonte e espaçamentos consistentes em toda a aplicação, 
+baseando-se no tamanho da fonte raiz (<html>).
+
+Ideal para layouts e tipografia que precisam ser consistentes do tamanho
+da fonte dos elementos pais.
+
+
+QUANDO DEVO EVITAR:
+
+Quando você quer um tamanho que seja relativo apenas ao elemento pai específico
+e não á raiz.
+
+
+---------------------------------------------------------
+EXEMPLO DE USO:
+
+
+
+
+
+
+
+
+
