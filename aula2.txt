@@ -49,7 +49,7 @@ Se você precisa de consistência em relação ao tamanho da fonte em toda a apl
 independente da hierarquia de elemento.
 
 
--------------------------------------------
+---------------------------------------------------------
 EXEMPLO DE USO:
 
 HTML
@@ -61,7 +61,8 @@ HTML
       </div>
 
 </div>
--------------------------------------------
+---------------------------------------------------------
+
 CSS:
 
 .conteiner {
@@ -96,7 +97,18 @@ e não á raiz.
 ---------------------------------------------------------
 EXEMPLO DE USO:
 
+HTML:
 
+<div class= "conteiner">
+
+    <div class= "text">
+            <p> lorem </p>
+    </div>
+
+</div>
+---------------------------------------------------------
+
+CSS:
 
 
 
