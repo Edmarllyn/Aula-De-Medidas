@@ -183,6 +183,16 @@ CSS:
 }
 
 
+_________________________________________________________________________________________________________________
+
+6.% (Percentual)
+
+Uso recomendado:
+
+Para definir tamanhos relativos ao tamanho do elemento pai, ideal para layouts flexível e adaptáveis.
+útil para definir larguras e alturas de elemento dentro de conteiners com tamanhos variáveis.
+
+
 
 
 
