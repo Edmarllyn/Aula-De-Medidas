@@ -192,9 +192,30 @@ Uso recomendado:
 Para definir tamanhos relativos ao tamanho do elemento pai, ideal para layouts flexível e adaptáveis.
 útil para definir larguras e alturas de elemento dentro de conteiners com tamanhos variáveis.
 
+QUANDO EVITAR:
+Quando o  tamanho não deve depender do elemento pai, especialmente se o elemento pai não tiver um tamanho
+fixo ou previsível.
+
+--------------------------------------------------------
+ 
+ EXEMPLO DE USO:
+ 
+ html:
+ <div class="Parent">
+      <div class="child">
+      </div>
+</div>
+--------------------------------------------------------
+
+CSS:
+
+.Parent{
+    width: 500px /* largura fixa do pai */
+    background-color green;
+}
 
 
-
-
-
-
+.child {
+    width: 50%; /* 50% da largura do elemento pai (250px) */
+    background-color: pink;
+}

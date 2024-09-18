@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding:35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db;
+}
+
+header h1{
+    color: white;
+    font-size: 30px;
+}
+
+.section-1{
+    padding:70px;
+    margin:40px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.section-1 h3{
+    color: white;
+    font-size:30px;
+}
+
+.section-1 .div-pai{
+    display: flex;
+    gap: 25px;
+}
+
+section .div-filho{
+padding: 30px;
+margin-top: 35px;
+background-color: white;
+border-radius: 10px;
+width:15vw;
+text-align: center;
+}
+
+.div-filho h3{
+    color: black; 
+    font-size: 15px;
+    
+}
+
+
+
+
+.section-2{
+    padding:70px;
+    margin:40px;
+    border-radius: 10px;
+    background-color: rgb(132, 0, 255);
+}
+
+.section-2 h3{
+    color: white;
+    font-size:30px;
+}
+
+.section-2 .div-pai2{
+    display: flex;
+    gap: 25px;
+}
+
+.section-2 .div-filho2{
+padding: 30px;
+margin-top: 35px;
+background-color: white;
+border-radius: 10px;
+width:15vw;
+text-align: center;
+}
+
+.section-2 .div-filho2 h3{
+    color: black; 
+    font-size: 15px;
+    
+}
+
+
+
+
+
+
+
+.section-3{
+    padding:70px;
+    margin:40px;
+    border-radius: 10px;
+    background-color: rgb(251, 255, 0);
+}
+
+.section-3 h3{
+    color: white;
+    font-size:30px;
+}
+
+.section-3 .div-pai3{
+    display: flex;
+    gap: 25px;
+}
+
+.section-3 .div-filho3{
+padding: 30px;
+margin-top: 35px;
+background-color: white;
+border-radius: 10px;
+width:15vw;
+text-align: center;
+}
+
+.section-3 .div-filho3 h3{
+    color: black; 
+    font-size: 15px;
+    
+}
+
+
+
+
+
+
+
+
+.section-4{
+    padding:70px;
+    margin:40px;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 179);
+}
+
+.section-4 h3{
+    color: white;
+    font-size:30px;
+}
+
+.section-4 .div-pai4{
+    display: flex;
+    gap: 25px;
+}
+
+.section-4 .div-filho4{
+padding: 30px;
+margin-top: 35px;
+background-color: white;
+border-radius: 10px;
+width:15vw;
+text-align: center;
+}
+
+.section-4 .div-filho4 h3{
+    color: black; 
+    font-size: 15px;
+    
+}
+
+
+
+
+.section-5{
+    padding:70px;
+    margin:40px;
+    border-radius: 10px;
+    background-color: rgb(0, 60, 255);
+}
+
+.section-5 h3{
+    color: white;
+    font-size:30px;
+}
+
+.section-5 .div-pai5{
+    display: flex;
+    gap: 25px;
+}
+
+.section-5 .div-filho5{
+padding: 30px;
+margin-top: 35px;
+background-color: white;
+border-radius: 10px;
+width:15vw;
+text-align: center;
+}
+
+.section-5 .div-filho5 h3{
+    color: black; 
+    font-size: 15px;
+    
+}
