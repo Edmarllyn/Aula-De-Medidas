@@ -23,3 +23,13 @@
     padding:50px;
     background-color: chartreuse;
  }
+
+ @media (max-width:480px){
+    .header{
+        background-color: blue;
+    }
+    .section-1{
+        background-color: aqua;
+    }
+ }
+
