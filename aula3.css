@@ -1,0 +1,22 @@
+ /* min-width Largura minima. O elemento não pode ser menor que esse valor */
+ /* max-width Largura máxima. O elemento não pode ser maior que esse valor */
+
+ .header {
+    padding: 50px;
+    background-color:red;
+ }
+
+ .section-1{
+    padding: 150px;
+    background-color:yellow;
+ }
+
+ .section-2{
+    padding: 150px;
+    background-color:blueviolet;
+ }
+
+ .rodape{
+    padding:50px;
+    background-color: chartreuse;
+ }
