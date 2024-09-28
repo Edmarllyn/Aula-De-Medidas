@@ -11,7 +11,7 @@ html{
 
 header{
     padding: min(5vh, 4rem); /* ajustando o padding para ser mais flexivel */
-    background-color: #f52c15;
+    background-color: #000000;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -34,12 +34,107 @@ header img{
 header button{
     width: 13rem;
     height: 1.5rem;
-    background-color:#f52c15;
+    background-color:rgb(255, 0, 0);
     border-radius: 1rem;
     padding: 1.3rem;
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.section-01{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(180deg, rgb(0, 0, 0)8.33%, rgb(56, 56, 56) 100%);
+    width: 100%;
+    padding: min(20vh, 6rem);
+}
+
+.section{
+    color: white;
+}
+
+.section-02{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(180deg, rgb(0, 0, 0)8.33%, rgb(56, 56, 56) 100%);
+    width: 100%;
+    padding: min(20vh, 6rem);
+}
+
+.div-1{
+    font-size: 2em;
+    margin: 1.2em;
+}
+
+.div-2 img{
+    width: 30rem;
+    margin: 5rem auto;
+    display: block;
+    border-radius:5px;
+
+}
+
+footer{
+    background-color: #f52c15;
+    width: 100%;
+    padding: min(5vh, 4rem);
+}
+
+@media (max-width:830px) {
+    header img{
+        width:4rem;
+        height:4rem;
+        border-radius: 5px;
+    }
+
+    header button{
+        width: 10rem;
+        height:0.8rem;
+    }
+
+    .section-01 {    
+        padding: 9rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .div-1 p{
+        font-size: 1.1rem;
+        line-height: 1.5;
+        text-align: left;
+        padding:2rem;
+        width: 100%;
+        margin:2rem;
+    }
+
+    .div-2 img{
+        width: 10rem;
+        margin:0.2rem;
+    }
+
+  
+
+    .section-02 {    
+        padding: 9rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    footer img{
+        width:4rem;
+        height:4rem;
+        border-radius: 5px;
+    }
+
+
+}
