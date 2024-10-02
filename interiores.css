@@ -27,6 +27,17 @@ header img{
     height:100px;
     width:100px;
 }
+header input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+    outline: none;
+    font-size: 16px;
+    transition: box-shadow 0.3s;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
 
 header button{
     width: 13rem;
@@ -104,8 +115,8 @@ header button:hover{
 
 .card {
     position: relative;
-    width: 200px;
-    height: 400px;
+    width: 250px;
+    height: 450px;
     margin: 30px;
     box-shadow: 20px 20px 50px #2e3715;
     border-radius: 15px;
@@ -127,4 +138,85 @@ header button:hover{
 .content:hover{
     transform: translateY(0px);
     opacity:1;
+}
+
+.content h2{
+    position: absolute;
+    color: rgba(0, 0, 0, 0.5); /* Define uma cor cinza com 50% de opacidade */
+    pointer-events: none; /* Desativa eventos de ponteiro, tornando o elemento não clicável */
+    margin: 20px;
+}
+
+.content p {
+    font-size: 0.8em; /* Define um tamanho de fonte menor para o parágrafo */
+    color: rgb(0, 0, 0); /* Define a cor do parágrafo como um tom escuro */
+    font-weight: 300; /* Define o peso da fonte como leve */
+    margin-top: 4rem; /* Adiciona uma margem superior de 4rem para espaçamento */
+}
+.content a {
+    position: relative; /* Define a posição do link como relativa, permitindo ajustes de posicionamento */
+    display: inline-block; /* Faz o link se comportar como um bloco inline */
+    padding: 8px 20px; /* Adiciona padding ao redor do texto do link */
+    margin-top: 2.7rem; /* Adiciona uma margem superior de 2.7rem para espaçamento */
+    background: rgba(255, 255, 255, 0.678); /* Define o fundo do link como branco */
+    color: rgb(0, 0, 0);  /* Define a cor do texto do link como preto */
+    text-decoration: none;  /* Remove o sublinhado padrão dos links */
+    border-radius: 15px;  /* Arredonda os cantos do link */
+    font-weight: 500; /* Define o peso da fonte como seminegrito */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra ao redor do link para efeito de profundidade */
+}
+
+.content a:hover{
+    box-shadow: 0px 0px 25px #000000fa; /* Adiciona uma sombra ao redor do botão quando o mouse passa sobre ele */
+}
+
+.rodape{
+    padding: min(5vh, 4rem);
+    background-color: #6ecf42;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    left:0;
+    box-shadow: 0 0.21rem 0.5rem #000000;
+}
+
+.h2-rodape {
+    display: flex;
+    font-size: 35px;
+    color: #000000;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-right: 15px;
+}
+
+.div-icon{
+    margin-top: 30px;
+}
+
+
+
+.div-icon a {
+    text-decoration: none; /* decoração de texto desabilitado (none) */
+    color: white; /* Cor da letra da ancora */
+
+   }
+
+.div-icon a i { /* Acessando o Icone */
+    color: white; /* Cor da letra do icone */
+    font-size: 35px; /* Define o tamanho da fonte dentro da sessão */
+    padding: 10px; /* preenchimento do icone do footer */
+    background-color: rgb(0, 0, 0); /* Cor de fundo do icone */ 
+    border-radius: 10px; /* arredondamento da borda da div */
+    align-items: left;  /* Alinha os itens verticalmente ao centro  */ 
+}
+
+ .div-icon a i:hover {
+    background-color: #0e2c00; /* Cor de fundo do icone */
+    transition: 0.5s; /* Tempo de transição ao colocar o mause sobre a Ancora */
+    cursor: pointer; /* Adicionando o cursor ao colocar sobre o icone */
+   
 }
