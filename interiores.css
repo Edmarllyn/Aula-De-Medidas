@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html{
+    width:100%;
+    height:100vh;
+}
+
+header{
+    padding: min(5vh, 4rem);
+    background-color: #6ecf42;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0;
+    left:0;
+    z-index:999;
+    box-shadow: 0 0.21rem 0.5rem #000000;
+}
+
+header img{
+    height:100px;
+    width:100px;
+}
+
+header button{
+    width: 13rem;
+    height:1.5rem;
+    background-color:#000000a2;
+    border-radius:1rem;
+    padding: 1.3rem;
+    color: #fffff1a4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header button:hover{
+    background-color: #000000;
+    color: #fffff1;
+    box-shadow:0px 0px 25px #000000;
+    cursor:pointer;
+}
+
+.section-01 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(80deg, #e5fec5 8.33%, #c5fec6 100%);
+    width: 100%;
+    padding: min(20vh, 6rem);
+}
+
+.section {
+    color:#000000;
+}
+
+
+.section-02{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(80deg, #e5fec5 8.33%, #c5fec6 100%);
+    width: 100%;
+    padding: min(20vh, 6rem);
+}
+
+.div-1{
+    font-size: 2rem;
+    margin: 1.2em;
+}
+
+.div-2 img{
+    width:30rem;
+    margin: rem auto;
+    display: block;
+    border-radius: 5px;
+}
+
+
+.section-03 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(80deg, #e5fec5 8.33%, #c5fec6 100%);
+    width: 100%;
+    padding: min(20vh, 6rem);
+}
+
+.container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 10rem;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.card {
+    position: relative;
+    width: 200px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px #2e3715;
+    border-radius: 15px;
+    background: #fffff1;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000 ;
+}
